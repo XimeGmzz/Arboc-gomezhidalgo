@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Logo inicial */
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+header{
+    background-color: black;
+}
+
+.imagenLogo {
+    display: block;
+    margin: 0px auto;
+    width: 350px;
+    height: 300px;
+}
+
+/* Lista del navegador */
+nav ul {
+    list-style: none;
+    background-image: linear-gradient( to right,#297928, #2E7040);
+    border: solid 2px black;
+
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 5px 75px;
+    }
+    
+    nav ul li:hover{
+        font-weight: bold;
+    }
+
+
+nav ul li a {
+    text-decoration: solid;
+    color: black;
+    font-size: medium;
+    font-family: fantasy;
+    font-weight: 100px;
+
+}
+
+
+/* Encabezados index/politicasdecambio */
+.encabezadoUno {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 3px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    animation-name: tituloCambiante;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    
+}
+
+/* Fotos index*/
+.contenedorFotosInicio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.contenedorFotosInicio .productosInicio {
+    width: 18rem;
+    height: 34rem;
+    padding: 1rem;
+    border-radius: 30px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedorFotosInicio .productosInicio:hover {
+    box-shadow: 5px 5px 5px ;
+    background-color:#2E7040;
+    width: 20rem;
+}
+
+.contenedorFotosInicio .productosInicio .fotosInicio .fotoProducto {
+    width: 100%;
+    height: 27rem;
+    border-radius: 5%;
+}
+
+.infoFoto{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.video {
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+/* Encabezados 2-3-4 index*/
+.encabezadoDos {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px 20px 20px 20px;
+    font-size: xx-large;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    font-weight: 500px;
+    letter-spacing: 3px;
+}
+
+.encabezadoTres {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px 20px 20px 20px;
+    font-size: xx-large;
+    text-align: center;
+    color: black;
+    font-weight: 500px;
+    letter-spacing: 3px;
+}
+
+.encabezadoCuatro {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 20px 20px 20px;
+    margin: 0 auto;
+    font-size: larger;
+    text-align: left;
+    color: black;
+    font-weight: 500px;
+    letter-spacing: 3px;
+}
+
+/* Formulario index/contacto */
+.formulario {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    color: black;
+    margin-left: 15px;
+}
+
+.botonEnviar {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+/* Contacto index */
+footer {
+    background-image: linear-gradient(black,#2E7040, #39f56b);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+footer .contactInd {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding-top: 15px;
+}
+
+.copy {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;
+    font-size: larger;
+    margin-right: 50px;
+
+}
+
+/* Politicas de cambio/ como comprar (encabezados h2/h3 y texto p) */
+body {
+    background-color: ghostwhite;
+}
+
+.encabezadoDosPc {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px 20px 20px 20px;
+    font-size: x-large;
+    text-align: left;
+    color: black;
+    font-weight: bold;
+
+}
+
+.encabezadoTresCc {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px 20px 20px 20px;
+    font-size: xx-large;
+    text-align: left;
+    color: black;
+    font-weight: bold;
+    background-color: whitesmoke;
+    text-decoration: underline;
+}
+
+.texto {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 20px 20px 20px 20px;
+    font-size: large;
+    text-align: left;
+    color: black;
+    margin-left: 25px;
+
+}
+
+/* encabezado contacto */
+.encabezadoCuatroC {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px 20px 20px 20px;
+    font-size: xx-large;
+    text-align: left;
+    color: black;
+    font-weight: bold;
+    background-color: whitesmoke;
+}
+
+/* Productos */
+.productosCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.productosCards .products {
+    width: 18rem;
+    height: 34rem;
+    padding: 1rem;
+    background-color: black;
+    border-radius: 30px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.productosCards .products:hover {
+    box-shadow: 10px 10px 11px black;
+    background-color: #2E7040;
+    width: 20rem;
+}
+
+.productosCards .products .contenedorDeImg .fotos {
+    width: 100%;
+    height: 27rem;
+    border-radius: 5%;
+}
+
+.productosCards .products .textProducts .tituloproducts,
+.precio {
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    text-align: center;
+}
+
+.productosCards .products .comprarProducts {
+    width: 100%;
+}
+
+.productosCards .products .comprarProducts .botonComprar {
+    font-family: monospace;
+    font-size: 22px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    background-color: #39f56b;
+    border: 0;
+    width: 100%;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+/* Keyframes */
+h1{
+
+}
+@keyframes tituloCambiante{
+    0%{
+        color: #2E7040;
+    }
+
+    100%{
+        color: black;
+        background-color: #64ca62;
+    }
+}
+
+/* Responsive */
+
+@media (max-width:700x; ) {
+    .main {
+        flex-direction: column;
+    }
+
+}
