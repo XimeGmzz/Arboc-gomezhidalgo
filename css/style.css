@@ -65,6 +65,11 @@ nav ul li a {
     animation-delay: 1s;
     
 }
+/* Carrusel */
+.carousel-inner{
+    width: 640px;
+    height: 560px;
+}
 
 /* Fotos index*/
 .contenedorFotosInicio {
@@ -101,9 +106,10 @@ nav ul li a {
 }
 
 
-.video {
+.video-responsive {
     text-align: center;
     flex-wrap: wrap;
+    
 }
 
 /* Encabezados 2-3-4 index*/
@@ -279,9 +285,7 @@ body {
 }
 
 /* Keyframes */
-h1{
 
-}
 @keyframes tituloCambiante{
     0%{
         color: #2E7040;
