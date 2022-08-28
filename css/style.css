@@ -299,7 +299,7 @@ body {
 
 /* Responsive */
 
-@media (max-width:700x; ) {
+@media (max-width:700px; ) {
     .main {
         flex-direction: column;
     }
